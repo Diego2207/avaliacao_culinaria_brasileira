@@ -1,0 +1,5 @@
+package com.br.zup.culinaria.services;
+
+public class ReceitaService {
+
+}

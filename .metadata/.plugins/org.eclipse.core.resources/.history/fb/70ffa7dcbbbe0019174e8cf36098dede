@@ -1,0 +1,5 @@
+package com.br.zup.culinaria.controllers;
+
+public class ReceitaController {
+
+}

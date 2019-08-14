@@ -1,0 +1,8 @@
+package com.br.zup.culinaria.models;
+
+import javax.persistence.Entity;
+
+@Entity
+public class ReceitasModel {
+
+}

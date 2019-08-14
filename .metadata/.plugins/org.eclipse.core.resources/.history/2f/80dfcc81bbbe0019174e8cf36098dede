@@ -1,0 +1,8 @@
+package com.br.zup.culinaria.services;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class ReceitaService {
+
+}

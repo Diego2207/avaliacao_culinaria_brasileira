@@ -1,0 +1,15 @@
+package com.br.zup.culinaria.controllers;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.br.zup.culinaria.services.ReceitaService;
+
+@RestController
+@RequestMapping("/api/receita")
+public class ReceitaController {
+
+	@Autowired
+	private ReceitaService receitaService;
+}

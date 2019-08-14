@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.br.zup.culinaria.models.ReceitasModel&apos; to &apos;ReceitaModel&apos;&#x0A;- Original project: &apos;culinariaBrasileira&apos;&#x0A;- Original element: &apos;com.br.zup.culinaria.models.ReceitasModel&apos;&#x0A;- Renamed element: &apos;com.br.zup.culinaria.models.ReceitaModel&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ReceitasModel&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;com.br.zup.culinaria.models{ReceitasModel.java[ReceitasModel" matchStrategy="1" name="ReceitaModel" qualified="false" references="true" similarDeclarations="false" stamp="1565805315752" textual="false" version="1.0"/>
+</session>
