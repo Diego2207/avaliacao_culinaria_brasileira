@@ -659,3 +659,73 @@ java.lang.IllegalArgumentException: Argument not valid
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-14 16:05:25.505
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.tHjWDWvr
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-14 16:05:25.505
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.tHjWDWvr
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-14 16:05:25.505
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-14 16:05:25.505
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.tHjWDWvr => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-14 16:06:34.233
+!MESSAGE Boot LS startup time from start to initialized: 13023ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-14 16:06:34.323
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.YhonsQWxisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-14 16:06:34.324
+!MESSAGE subscribing to classpath changes: sts4.classpath.YhonsQWx isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-14 16:06:34.324
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-14 16:06:34.324
+!MESSAGE subsribers = {sts4.classpath.YhonsQWx=Send Classpath Notifications(2215)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-14 16:06:34.324
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-14 16:06:34.325
+!MESSAGE project culinariaBrasileira ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-14 16:06:34.325
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-14 16:06:34.325
+!MESSAGE Preparing classpath changed notification culinariaBrasileira
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-14 16:06:34.325
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.YhonsQWx => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-14 16:06:34.325
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-14 16:06:34.348
+!MESSAGE classpath=81 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-14 16:06:34.349
+!MESSAGE buffering callback sts4.classpath.YhonsQWx culinariaBrasileira false 81
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-14 16:06:34.349
+!MESSAGE executing callback sts4.classpath.YhonsQWx 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-14 16:06:34.446
+!MESSAGE executing callback sts4.classpath.YhonsQWx SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-08-14 16:20:03.140
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2022)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.getHoverInfo(LSBasedHover.java:105)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:43)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
